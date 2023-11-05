@@ -81,6 +81,11 @@ ul li i {
   background-color: #dddddd;
 }
 
+.list-item:hover {
+  color: #666666;
+  cursor: pointer;
+}
+
 .blog-container {
   display: flex;
   flex-direction: column;
@@ -104,7 +109,10 @@ ul li i {
   line-height: 29.76px;
   margin: 20px 0;
 }
-
+.blog-title:hover {
+  color: #643c23;
+  cursor: pointer;
+}
 .blog-content {
   color: #333333;
   font-size: 15px;
@@ -198,6 +206,12 @@ ul li i {
 
 .icon-container i {
   font-size: 24px;
+  color: #643c23;
+}
+
+.icon-container i:hover {
+  color: #666666;
+  cursor: pointer;
 }
 
 .bank-container {
@@ -221,6 +235,10 @@ ul li i {
   gap: 20px;
 }
 
+.twd:hover {
+  color: #666666;
+  cursor: pointer;
+}
 @media screen and (min-width: 767px) {
   .blog-container {
     padding: 100px 40px;
@@ -319,6 +337,10 @@ ul li i {
     line-height: 20px;
     text-align: left;
   }
+  .chinese:hover {
+    color: #666666;
+    cursor: pointer;
+  }
   .large-sticky {
     display: unset;
   }
@@ -332,6 +354,11 @@ ul li i {
     text-decoration: none;
     color: black;
   }
+
+  .header-menu li a:hover {
+    text-decoration: none;
+    color: #643c23;
+  }
   .header-menu-down ul {
     display: flex;
     flex-direction: row;
@@ -341,6 +368,11 @@ ul li i {
     text-decoration: none;
     color: black;
   }
+  .header-menu-down li a:hover {
+    text-decoration: none;
+    color: #643c23;
+  }
+
   .blog-container {
     padding: 100px 40px;
     gap: 60px;
