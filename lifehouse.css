@@ -101,6 +101,10 @@ ul li i {
   text-align: center;
 }
 
+.girl:hover {
+  cursor: pointer;
+}
+
 .blog-title {
   color: black;
   font-size: 24px;
@@ -109,14 +113,21 @@ ul li i {
   line-height: 29.76px;
   margin: 20px 0;
 }
+
 .blog-title:hover {
   color: #643c23;
   cursor: pointer;
 }
+
 .blog-content {
   color: #333333;
   font-size: 15px;
   line-height: 21.4286px;
+}
+
+.blog-content:hover {
+  cursor: pointer;
+  color: #888888;
 }
 
 .blog-date {
@@ -124,6 +135,11 @@ ul li i {
   font-size: 15px;
   line-height: 21.4286px;
   margin: 15px 0 0;
+}
+
+.blog-date:hover {
+  cursor: pointer;
+  color: #888888;
 }
 
 .line {
@@ -155,6 +171,11 @@ ul li i {
   bottom: 100px;
   z-index: 100;
   font-size: 14px;
+}
+
+.fa-solid.fa-arrow-up:hover {
+  cursor: pointer;
+  color: #666666;
 }
 
 .section-container {
@@ -198,6 +219,10 @@ ul li i {
   font-size: 14px;
   line-height: 25px;
   text-align: center;
+}
+
+.text-content {
+  cursor: pointer;
 }
 
 .icon-container {
